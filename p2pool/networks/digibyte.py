@@ -1,10 +1,10 @@
 from p2pool.bitcoin import networks
 
 PARENT=networks.nets['digibyte']
-SHARE_PERIOD=15
+SHARE_PERIOD=25
 CHAIN_LENGTH=24*60*60//10
 REAL_CHAIN_LENGTH=24*60*60//10
-TARGET_LOOKBEHIND=50
+TARGET_LOOKBEHIND=200
 SPREAD=30
 IDENTIFIER='1bfe01eff5ba4e37'.decode('hex')
 PREFIX='1bfe01eff652e4b8'.decode('hex')
